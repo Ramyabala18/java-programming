@@ -1,0 +1,15 @@
+import java.util.Stack;
+
+public class Sta {
+    public static void main(String ar[]){
+        Stack <String> c=new Stack<String>();
+        c.push("one");
+        c.push("four");
+        c.push("seven");
+        System.out.println("val added:"+c);
+        c.pop();
+        System.out.println("val after:"+c);
+
+
+    }
+}
