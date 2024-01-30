@@ -1,0 +1,16 @@
+import java.util.SortedSet;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
+public class Sor {
+    public static void main(String ar[]){
+        TreeSet <String> e= new TreeSet<String>();
+        e.add("ram");
+        e.add("tingu");
+        e.add("frozen");
+        System.out.println("val added:"+e);
+        e.remove("ram");
+        e.add("afinq");
+        System.out.println("val after:"+e);
+    }
+}
