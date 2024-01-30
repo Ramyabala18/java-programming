@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Collec {
+        public static void main(String ar[]) {
+            LinkedList<String> l= new LinkedList<String>();
+            l.add("abc");
+            l.add("cde");
+            l.add("fgh");
+            System.out.println(l);
+        }
+    }
+
