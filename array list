@@ -1,0 +1,13 @@
+import java.util.*;
+    public class Arr{
+        public static void main(String[]args){
+           ArrayList<String> a=new ArrayList<String>();
+            a.add("abc");
+            a.add("dfa");
+            a.add("fgh");
+            System.out.println(a);
+
+
+        }
+
+    }
