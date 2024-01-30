@@ -1,0 +1,15 @@
+import java.util.Vector;
+
+public class Vec {
+    public static void main(String ar[]){
+        Vector <String> a=new Vector<String>();
+    a.add("12");
+    a.add("14");
+    a.add("123");
+    System.out.println("val added:"+a);
+    a.remove("12");
+    a.add("1234");
+    System.out.println("val after:"+a);
+    }
+
+}
