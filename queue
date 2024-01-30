@@ -1,0 +1,17 @@
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class Que {
+    public static void main(String ar[]){
+        Queue <String> q=new PriorityQueue<String>();
+        q.add("10");
+        q.add("23");
+        q.add("54");
+        System.out.println("val added:"+q);
+        q.remove("10");
+        q.add("12");
+        System.out.println("val after:"+q);
+
+
+    }
+}
