@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class va {
+    public static void main(String[]args) {
+        Scanner input = new Scanner(System.in);
+        String s1 = input.nextLine();
+        String s2 = input.nextLine();
+        if (s1 == s2)
+            System.out.println("enter name valid:");
+        else {
+            System.out.println("enter name invalid:");
+        }
+    }
+    }
