@@ -1,0 +1,7 @@
+public class constant {
+    public static void main(String ar[]){
+        final int a=10;
+
+        System.out.println(a);
+    }
+}
