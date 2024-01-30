@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Me {
+   public static void main(String[]args){
+   Scanner s=new Scanner(System.in);
+   int ar[]={66,79,84,53,28,17,91,35};
+   int i,sum,mean,diff,sd,nsd;
+   sum=66+79+84+53+28+17+91+35;
+   mean=sum/ar.length;
+   System.out.println("mean:"+mean+"\n");
+   }
+}
