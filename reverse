@@ -1,0 +1,10 @@
+public class We  {
+
+    public static void main(String[] args) {
+        int n = 5;
+        long factorial = calculateFactorial(n);
+        System.out.println("Factorial of " + n + " is: " + factorial);
+    }
+
+    
+
